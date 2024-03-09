@@ -90,9 +90,6 @@ DATABASES = {
     }
 }
 
-DATABASES['default']=dj_database_url.parse("postgres://portfolio_django_zvo1_user:KOos7TzlVb854z0LXPchpOqzpQNSHFM3@dpg-cnmb8v0cmk4c73ah2c80-a.oregon-postgres.render.com/portfolio_django_zvo1")
-# postgres://portfolio_django_zvo1_user:KOos7TzlVb854z0LXPchpOqzpQNSHFM3@dpg-cnmb8v0cmk4c73ah2c80-a.oregon-postgres.render.com/portfolio_django_zvo1
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
