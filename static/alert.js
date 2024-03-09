@@ -9,6 +9,6 @@ if (window.history.replaceState) {
     window.history.replaceState(null, null, window.location.href);
 }
 
-// setTimeout(function () {
-//     document.querySelector("#alert").style.display = "none";
-// }, 5000);
+setTimeout(function () {
+    document.querySelector("#alert").style.display = "none";
+}, 5000);
