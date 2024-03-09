@@ -56,6 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     "django_browser_reload.middleware.BrowserReloadMiddleware", #added mannually for browser reload tailwind css
+    'whitenoise.middleware.WhiteNoiseMiddleware', #added whitenoie 
 ]
 
 ROOT_URLCONF = 'portfolio.urls'
